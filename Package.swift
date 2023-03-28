@@ -12,8 +12,8 @@ let package = Package(
         .library(name: "FluentSQLiteDriver", targets: ["FluentSQLiteDriver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.27.0"),
-        .package(url: "https://github.com/vapor/sqlite-kit.git", from: "4.0.0"),
+        .package(url: "https://github.com/mteep/fluent-kit.git", from: "1.27.0"),
+        .package(url: "https://github.com/mteep/sqlite-kit.git", from: "4.0.0"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
